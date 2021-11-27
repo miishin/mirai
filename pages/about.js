@@ -4,7 +4,7 @@ import styles from '../styles/About.module.css'
 
 export default function About() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Likes</title>
         <link rel = "icon" href="/favicon.ico" />

@@ -4,7 +4,7 @@ import styles from '../styles/Keebs.module.css'
 
 export default function Keebs() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Keebs</title>
         <link rel = "icon" href="/favicon.ico" />

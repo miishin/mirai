@@ -1,9 +1,4 @@
-.container {
-    background-color: gray;
-    z-index: 0;
-  }
-  
-  .menu {
+.menu {
     background-color: black;
     color: white;
     outline: 5px ridge gray;
@@ -11,23 +6,21 @@
     width: 20%;
     padding: 20px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    z-index: 1;
     text-align: center;
-  }
-  
-  .items {
+}
+
+.items {
     display: inline-block;
     text-align: left;
-  }
+}
   
-  .txt {
+.txt {
     color: white;
     font-size: x-large;
     font-family: Dragon-Quest;
-    z-index: 3;
-  }
+}
   

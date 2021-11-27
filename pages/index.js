@@ -6,7 +6,7 @@ import styles from '../styles/Menu.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Mirai Sahara</title>
         <link rel = "icon" href="/favicon.ico" />
@@ -21,14 +21,16 @@ export default function Home() {
 
       <main className={styles.menu}>
         <div className={styles.items}>
+          <div className={styles.linktxt}>∗: What are you interested in?</div>
+          <br/>
           <Link href="/about" passHref>
-            <div className={styles.linktxt}>About Me</div>
-          </Link>
-          <Link href="/like" passHref>
-            <div className={styles.linktxt}>Things I Like</div>
+            <div className={styles.linktxt}>What can you tell me about yourself?</div>
           </Link>
           <Link href="/made" passHref>
-            <div className={styles.linktxt}>Things I Made</div>
+            <div className={styles.linktxt}>What are you proud of?</div>
+          </Link>
+          <Link href="/like" passHref>
+            <div className={styles.linktxt}>What&apos;s your favorite _____?</div>
           </Link>
         </div>
       </main>

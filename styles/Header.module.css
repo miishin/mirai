@@ -1,11 +1,11 @@
 .header {
     position: relative;
     text-align: center;
-    background-color: black;
+    top: 20%;
 }
 
 .txt {
-    color: white;
+    color: black;
     font-family: Dragon-Quest;
     font-size: xx-large;
 }
