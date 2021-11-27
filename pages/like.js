@@ -8,7 +8,7 @@ export default function Ratings() {
     <div className="container">
       <NHead name="Ratings"/>
       <Header></Header>
-      <div className={styles.linktxt}>∗: You want to know what I like?</div>
+
       <main className={styles.menu}>
           <div className={styles.menuItem}>
             <img src="menu_item.svg" className={styles.img}/>
