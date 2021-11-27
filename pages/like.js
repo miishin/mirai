@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image' 
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Menu.module.css'
 
 export default function Ratings() {
   return (
@@ -21,18 +21,18 @@ export default function Ratings() {
 
       <main className={styles.menu}>
         <div className={styles.items}>
-          <Link href = "https://rateyourmusic.com/~miishin">
+          <a href = "https://rateyourmusic.com/~miishin">
             <div className={styles.linktxt}>Music</div>
-          </Link>
-          <Link href = "https://letterboxd.com/miishin/">
+          </a>
+          <a href = "https://letterboxd.com/miishin/">
             <div className={styles.linktxt}>Movies</div>
-          </Link>
-          <Link href = "https://anilist.co/user/miishin/">
+          </a>
+          <a href = "https://anilist.co/user/miishin/">
             <div className={styles.linktxt}>Anime/Manga</div>
-          </Link>
-          <Link href = "https://glitchwave.com/user/miishin/">
+          </a>
+          <a href = "https://glitchwave.com/user/miishin/">
             <div className={styles.linktxt}>Video Games</div>
-          </Link>
+          </a>
         </div>
       </main>
     </div>

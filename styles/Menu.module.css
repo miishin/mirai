@@ -1,6 +1,7 @@
 .container {
   background-color: gray;
   z-index: 0;
+  text-align: center;
 }
 
 .menu {

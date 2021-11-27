@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image' 
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Menu.module.css'
 
 export default function Made() {
   return (
@@ -21,12 +21,12 @@ export default function Made() {
 
       <main className={styles.menu}>
         <div className={styles.items}>
-          <Link href = "https://github.com/miishin">
+          <a href = "https://github.com/miishin">
             <div className={styles.linktxt}>Code</div>
-          </Link>
-          <Link href = "instagram.com/miraisahara">
+          </a>
+          <a href = "https://instagram.com/miraisahara">
             <div className={styles.linktxt}>Photography</div>
-          </Link>
+          </a>
           <Link href = "keebs">
             <div className={styles.linktxt}>Keyboards</div>
           </Link>
