@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image' 
-import Link from 'next/link'
+import Header from '../components/header.js'
 import styles from '../styles/About.module.css'
 
 export default function About() {
@@ -15,14 +14,12 @@ export default function About() {
               crossOrigin = ""/>
       </Head>
 
-      <div>
-        Mirai
-      </div>
+      <Header></Header>
 
       <main className={styles.contents}>
         <div className={styles.items}>
           <div className={styles.txt}>
-              I'm Mirai.
+              <p>Mirai.</p>
           </div>
         </div>
       </main>

@@ -1,0 +1,11 @@
+.header {
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+
+.txt {
+    color: white;
+    font-family: Dragon-Quest;
+    font-size: xx-large;
+}

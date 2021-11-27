@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image' 
+import Header from '../components/header.js'
 import Link from 'next/link'
 import styles from '../styles/Menu.module.css'
 
@@ -15,9 +15,7 @@ export default function Made() {
               crossOrigin = ""/>
       </Head>
 
-      <div>
-        Mirai
-      </div>
+      <Header></Header>
 
       <main className={styles.menu}>
         <div className={styles.items}>
@@ -27,7 +25,7 @@ export default function Made() {
           <a href = "https://instagram.com/miraisahara">
             <div className={styles.linktxt}>Photography</div>
           </a>
-          <Link href = "keebs">
+          <Link href = "/keebs" passHref>
             <div className={styles.linktxt}>Keyboards</div>
           </Link>
         </div>

@@ -9,6 +9,7 @@
   color: white;
   outline: 5px ridge gray;
   margin: auto;
+  min-width: 200px;
   width: 20%;
   padding: 20px;
   position: absolute;

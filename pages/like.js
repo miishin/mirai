@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image' 
-import Link from 'next/link'
+import Header from '../components/header.js'
 import styles from '../styles/Menu.module.css'
 
 export default function Ratings() {
@@ -15,9 +14,7 @@ export default function Ratings() {
               crossOrigin = ""/>
       </Head>
 
-      <div>
-        Mirai
-      </div>
+      <Header></Header>
 
       <main className={styles.menu}>
         <div className={styles.items}>

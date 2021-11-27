@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image' 
 import Link from 'next/link'
+import Header from '../components/header.js'
 import styles from '../styles/Menu.module.css'
 
 export default function Home() {
@@ -15,20 +16,19 @@ export default function Home() {
               crossOrigin = ""/>
       </Head>
 
-      <div>
-        Mirai
-      </div>
+      
+      <Header></Header>
 
       <main className={styles.menu}>
         <div className={styles.items}>
-          <Link href="about">
+          <Link href="/about" passHref>
             <div className={styles.linktxt}>About Me</div>
           </Link>
-          <Link href="like">
+          <Link href="/like" passHref>
             <div className={styles.linktxt}>Things I Like</div>
           </Link>
-          <Link href="made">
-            <div className={styles.linktxt}>Things I've Made</div>
+          <Link href="/made" passHref>
+            <div className={styles.linktxt}>Things I Made</div>
           </Link>
         </div>
       </main>
