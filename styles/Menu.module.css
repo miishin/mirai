@@ -1,9 +1,6 @@
 .menu {
-  background-color: black;
-  color: white;
-  outline: 5px ridge gray;
   margin: auto;
-  min-width: 200px;
+  min-width: 511px;
   width: 20%;
   padding: 20px;
   position: absolute;
@@ -13,14 +10,22 @@
   transform: translate(-50%, -50%);
 }
 
+.img {
+  text-align: center;
+}
+
 .items {
   display: inline-block;
   text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: medium;
 }
 
 .linktxt {
   color: white;
-  font-size: x-large;
+  font-size: 125%;
   font-family: Dragon-Quest;
 }
 

@@ -16,21 +16,20 @@ export default function Home() {
               crossOrigin = ""/>
       </Head>
 
-      
       <Header></Header>
 
       <main className={styles.menu}>
+        <img src="textbox.svg"/>
         <div className={styles.items}>
-          <div className={styles.linktxt}>∗: What are you interested in?</div>
-          <br/>
+          <div className={styles.linktxt}>What do you want to know?</div>
           <Link href="/about" passHref>
-            <div className={styles.linktxt}>What can you tell me about yourself?</div>
+            <div className={styles.linktxt}>∗ What can you tell me about yourself?</div>
           </Link>
           <Link href="/made" passHref>
-            <div className={styles.linktxt}>What are you proud of?</div>
+            <div className={styles.linktxt}>∗ What are you proud of?</div>
           </Link>
           <Link href="/like" passHref>
-            <div className={styles.linktxt}>What&apos;s your favorite _____?</div>
+            <div className={styles.linktxt}>∗ What&apos;s your favorite _____?</div>
           </Link>
         </div>
       </main>
