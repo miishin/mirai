@@ -23,3 +23,7 @@
   font-size: x-large;
   font-family: Dragon-Quest;
 }
+
+.linktxt:hover {
+  cursor: pointer;
+}
