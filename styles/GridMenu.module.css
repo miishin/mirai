@@ -1,0 +1,37 @@
+.menu {
+    margin: auto;
+    min-width: 511px;
+    width: 20%;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+  
+  .items {
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: medium;
+  }
+  
+  .linktxt {
+    color: white;
+    font-size: 125%;
+    font-family: Dragon-Quest;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .linktxt:hover {
+    cursor: pointer;
+  }
+  

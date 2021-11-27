@@ -1,20 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image' 
+import Head from 'next/head' 
 import Link from 'next/link'
 import Header from '../components/header.js'
+import NHead from '../components/head.js'
 import styles from '../styles/Menu.module.css'
 
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Mirai Sahara</title>
-        <link rel = "icon" href="/favicon.ico" />
-        <link rel = "preload"
-              href = "/fdragon-quest-ds.ttf"
-              as = "font"
-              crossOrigin = ""/>
-      </Head>
+      <NHead name="Home"/>
 
       <Header></Header>
 
