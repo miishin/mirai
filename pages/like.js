@@ -3,11 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Ratings() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Mirai Sahara</title>
+        <title>Likes</title>
         <link rel = "icon" href="/favicon.ico" />
         <link rel = "preload"
               href = "/fdragon-quest-ds.ttf"
@@ -21,14 +21,17 @@ export default function Home() {
 
       <main className={styles.menu}>
         <div className={styles.items}>
-          <Link href="about">
-            <div className={styles.linktxt}>About Me</div>
+          <Link href = "https://rateyourmusic.com/~miishin">
+            <div className={styles.linktxt}>Music</div>
           </Link>
-          <Link href="like">
-            <div className={styles.linktxt}>Things I Like</div>
+          <Link href = "https://letterboxd.com/miishin/">
+            <div className={styles.linktxt}>Movies</div>
           </Link>
-          <Link href="made">
-            <div className={styles.linktxt}>Things I've Made</div>
+          <Link href = "https://anilist.co/user/miishin/">
+            <div className={styles.linktxt}>Anime/Manga</div>
+          </Link>
+          <Link href = "https://glitchwave.com/user/miishin/">
+            <div className={styles.linktxt}>Video Games</div>
           </Link>
         </div>
       </main>

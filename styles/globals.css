@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Dragon-Quest";
+  src: url("/dragon-quest-ds.ttf");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+link-txt {
+  font-family: Dragon-Quest;
+}
