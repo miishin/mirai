@@ -11,28 +11,40 @@ export default function Ratings() {
 
       <main className={styles.menu}>
           <div className={styles.menuItem}>
-            <img src="menu_item.svg" className={styles.img}/>
-            <a href = "https://rateyourmusic.com/~miishin" className={styles.linktxt}>Music</a>
+            <a href="https://rateyourmusic.com/~miishin">
+              <img src="menu_item.svg" className={styles.img}/>
+              <div className={styles.linktxt}>Music</div>
+            </a>
           </div>
           <div className={styles.menuItem}>
-            <img src="menu_item.svg" className={styles.img}/>
-            <a href = "https://letterboxd.com/miishin/" className={styles.linktxt}>Movies</a>
+            <a href = "https://letterboxd.com/miishin/">
+              <img src="menu_item.svg" className={styles.img}/>
+              <div className={styles.linktxt}>Movies</div>
+            </a>
           </div>
           <div className={styles.menuItem}>
-            <img src="menu_item.svg" className={styles.img}/>
-            <a href = "https://trakt.tv/users/miishin/ratings/all/all/highest" className={styles.linktxt}>TV Shows</a>
+            <a href = "https://trakt.tv/users/miishin/ratings/all/all/highest">
+              <img src="menu_item.svg" className={styles.img}/>
+              <div className={styles.linktxt}>TV Shows</div>
+            </a>
           </div>
           <div className={styles.menuItem}>
-            <img src="menu_item.svg" className={styles.img}/>
-            <a href = "https://anilist.co/user/miishin/animelist" className={styles.linktxt}>Anime</a>
+            <a href = "https://anilist.co/user/miishin/animelist">
+              <img src="menu_item.svg" className={styles.img}/>
+              <div className={styles.linktxt}>Anime</div>
+            </a>
           </div>
           <div className={styles.menuItem}>
-            <img src="menu_item.svg" className={styles.img}/>
-            <a href = "https://anilist.co/user/miishin/mangalist" className={styles.linktxt}>Manga</a>
+            <a href = "https://anilist.co/user/miishin/mangalist">
+              <img src="menu_item.svg" className={styles.img}/>
+              <div className={styles.linktxt}>Manga</div>
+            </a>
           </div>
           <div className={styles.menuItem}>
-            <img src="menu_item.svg" className={styles.img}/>
-            <a href = "https://glitchwave.com/user/miishin/" className={styles.linktxt}>Video Games</a>
+            <a href = "https://glitchwave.com/user/miishin/">
+              <img src="menu_item.svg" className={styles.img}/>
+              <div className={styles.linktxt}>Video Games</div>
+            </a>
           </div>
       </main>
     </div>
