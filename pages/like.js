@@ -7,8 +7,7 @@ export default function Ratings() {
   return (
     <div className="container">
       <NHead name="Ratings"/>
-      <Header></Header>
-
+      <Header name="Stuff I Like"/>
       <main className={styles.menu}>
           <div className={styles.menuItem}>
             <a href="https://rateyourmusic.com/~miishin">

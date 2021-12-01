@@ -6,16 +6,11 @@ body {
   bottom: 0px;
   left: 0px;
   right: 0px;
+  background-color: rgb(228, 228, 228);
 }
 
 .container {
-  background-color: rgb(228, 228, 228);
   z-index: 0;
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
 }
 
 a {
