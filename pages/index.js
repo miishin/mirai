@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <div className="container">
       <NHead name="Home"/>
-
       <Header></Header>
 
       <main className={styles.menu}>
