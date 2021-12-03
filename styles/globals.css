@@ -1,16 +1,16 @@
 html,
 body {
   margin: 0px;
-}
-
-.container {
-  margin: 0px;
   position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   background-color: rgb(228, 228, 228);
+}
+
+.container {
+  height: 100vh;
 }
 
 a {
