@@ -11,6 +11,8 @@ body {
 
 .container {
   height: 100vh;
+  max-width: 400px;
+  object-fit: contain;
 }
 
 a {

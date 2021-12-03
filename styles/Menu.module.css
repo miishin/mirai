@@ -1,16 +1,17 @@
 .menu {
   margin: auto;
-  max-width: 385;
-  min-width: 324;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  max-width: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  position: relative;
+  top: 20%;
 }
 
 .img {
   text-align: center;
+  object-fit: contain;
 }
 
 .items {
@@ -20,6 +21,7 @@
   top: 30%;
   left: 10%;
   font-size: medium;
+  object-fit: contain;
 }
 
 .linktxt {

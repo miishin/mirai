@@ -11,7 +11,7 @@ export default function Home() {
       <Header></Header>
 
       <main className={styles.menu}>
-        <img src="textbox.svg"/>
+        <img src="textbox.svg" width="100%" height="100%"/>
         <div className={styles.items}>
           <div className={styles.linktxt}>What do you want to know?</div>
           <Link href="/about" passHref>
