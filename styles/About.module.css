@@ -1,12 +1,3 @@
- .contents {
-    background-color: black;
-    color: white;
-    outline: 5px ridge gray;
-    margin: auto;
-    width: 20%;
-    padding: 20px;
-    text-align: center;
-}
 
 .items {
     display: inline-block;
